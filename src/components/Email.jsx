@@ -25,14 +25,23 @@ export const ContactUs = () => {
   }
 
   return (
-    <form className='flex flex-col font-medium'  ref={form} onSubmit={sendEmail}>
-      <label className='mt-2'>Name</label>
-      <input type="text" name="user_name" />
-      <label className='mt-2'>Email</label>
-      <input type="email" name="user_email" />
-      <label className='mt-2'>Message</label>
-      <textarea className='max-w-full min-w-full w-full max-h-full min-h-full h-full outline-none border-neutral-500 rounded-md p-2' name="message" />
-      <button className='mt-2 cursor-pointer bg-black text-white border-none' type="submit">send</button>
+    <form className='flex flex-col font-medium gap-5' ref={form} onSubmit={sendEmail}>
+      <div className='items-start'> 
+        
+      </div>
+      <div className='items-start'>
+      <label className='block text-white text-sm  mb-2 font-thin tracking-tight'>Name</label>
+      <input  placeholder='' className="w-full px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-500" type="text" name="user_name" required />
+      </div>
+      <div className='items-start'>
+      <label className='block text-white text-sm  mb-2 font-thin tracking-tight'>Email</label>
+      <input  placeholder='' className="w-full px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-500" type="email" name="user_email" required />
+      </div>
+      <div className='items-start'>
+      <label className='block text-white text-sm font-thin tracking-tight mb-2'>Message</label>
+      <textarea placeholder='' className="w-full px-3 py-2 border rounded-lg bg-gray-800 focus:border-blue-500" name="message" required />
+      </div>
+      <button className='cursor-pointer bg-purple-800 text-white border-none rounded p-2' type="submit">send</button>
     </form>
   );
 };
