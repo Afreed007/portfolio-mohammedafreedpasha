@@ -47,6 +47,7 @@ export const PROJECTS = [
     description:
       "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
     technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    url: "https://github.com/Afreed007/BlockfernsReality.git" ,
   },
   {
     title: "static-banking-site",
@@ -54,6 +55,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "JavaScript", "React", "Tailwind"],
+    url: "https://github.com/Afreed007/static-banking-site.git" ,
   },
   {
     title: "Portfolio Website",
@@ -61,6 +63,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    
   },
   {
     title: "Blogging Platform",
