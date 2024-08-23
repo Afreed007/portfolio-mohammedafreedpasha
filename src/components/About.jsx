@@ -19,8 +19,8 @@ const About = () =>{
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0, x:100}}
                 transition={{duration:0.5}}
-                className="w-ful lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
+                className="w-full ">{/* add "lg:w-1/2" in classname after flex justify-center when add image in about section */}
+                    <div className="flex justify-center "> {/* add "lg:justify-start" in classname after flex justify-center when add image in about section */}
                         <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p> 
                     </div>
             </motion.div>
