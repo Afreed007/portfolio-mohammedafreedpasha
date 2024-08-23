@@ -33,7 +33,7 @@ const Hero = () => {
                             className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
                     </div>
                 </div>
-            <div className="sm:mx-auto sm:w-1/3 lg:w-1/4 lg:p-8">
+            <div className="sm:mx-auto sm:w-1/3 lg:my-auto lg:w-1/4 lg:p-8">
                 <div className="flex justify-center">
                     <motion.img
                         initial={{x:100,opacity:0}}
