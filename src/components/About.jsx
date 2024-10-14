@@ -18,7 +18,6 @@ const About = () =>{
             </motion.div>
             
         </div>
-        <h3 className="my-20 text-center text-4xl">Qualification</h3>
 
     </div>
 
