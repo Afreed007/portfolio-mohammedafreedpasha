@@ -26,7 +26,7 @@ export const PROJECTS = [
     description:
       "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
     technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
-    url: "https://github.com/Afreed007/BlockfernsReality.git" ,
+    url: "https://github.com/Afreed007/Realestate-BlockfernsReality.git" ,
   },
   {
     title: "static-banking-site",
