@@ -11,7 +11,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "jun 2024 - Sep 2024",
     role: "Intern as Full Stack Developer",
     company: "LueurTech Software Solutions Pvt.Ltd",
     description: `Designed and developed user interfaces for web applications using SpringBoot and React. Worked closely with backend developers to integrate frontend components with SpringBoot APIs. Implemented responsive designs and optimized frontend performance.`,
