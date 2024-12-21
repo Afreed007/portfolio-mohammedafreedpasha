@@ -2,14 +2,14 @@ import aboutImg from "../assets/about.jpg/"
 import { ABOUT_TEXT } from "../constants";
 import {motion} from "framer-motion"
 
-import {ReactComponent as workIcon} from "../assets/work.svg"
-import {ReactComponent as schoolIcon} from "../assets/school.svg"
+// import {ReactComponent as workIcon} from "../assets/work.svg"
+// import {ReactComponent as schoolIcon} from "../assets/school.svg"
 
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// import 'react-vertical-timeline-component/style.min.css';
 const About = () =>{
-    let workIconStyle = {background:"#06D6A0"};
-    let schoolIconStyle = {background:"#f9c74f"};
+    // let workIconStyle = {background:"#06D6A0"};
+    // let schoolIconStyle = {background:"#f9c74f"};
 
     return <div className="border-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl">About <span className="text-neutral-500">Me</span></h1>
@@ -25,7 +25,7 @@ const About = () =>{
                     </div>
             </motion.div>
 
-            <h1>Timeline</h1>
+{/*             <h1>Timeline</h1>
             <VerticalTimeline>
                 {
                     timelineElements.map(element => {
@@ -42,7 +42,7 @@ const About = () =>{
                         );
                     })
                 }
-            </VerticalTimeline>
+            </VerticalTimeline> */}
             
         </div>
 
