@@ -78,11 +78,10 @@ export const PROJECTS = [
     
   },
   {
-    title: "Blogging Platform",
+    title: "HR Analytics Project: Job Change Prediction",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description:"Developed a machine learning model to predict job changes among data scientists using HR analytics. Utilized data preprocessing techniques, including SMOTE to handle data imbalance. Compared multiple classification algorithms and demonstrated that the **KNN model achieved superior performance**.",
+    technologies: ["Python", "scikit-learn", "Pandas", "NumPy"],
   },
 ];
 
