@@ -1,8 +1,9 @@
 import { motion } from "framer-motion"
 
 import { RiReactjsLine } from "react-icons/ri";
-import { FaJsSquare, FaNodeJs, FaPython, FaJava, FaGitAlt, FaGithub } from 'react-icons/fa'; // Added FaGithub
-import { SiTailwindcss, SiPostman, SiMysql, SiMongodb, SiScikitlearn, SiNumpy, SiPandas, SiIntellijidea, SiVisualstudiocode } from 'react-icons/si'; // Added SiIntellijidea, SiVisualstudiocode
+import { FaJsSquare, FaNodeJs, FaPython, FaJava, FaGitAlt, FaGithub } from 'react-icons/fa'; 
+
+import { SiTailwindcss, SiPostman, SiMysql, SiMongodb, SiScikitlearn, SiNumpy, SiPandas, SiIntellijidea } from 'react-icons/si'; 
 import { DiHtml5 } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 
@@ -100,7 +101,7 @@ const Technologies = () =>{
                 </motion.div>
             </div>
             
-            {/* 3. Tools & Platforms Section (NEW) */}
+            {/* 3. Tools & Platforms Section */}
             <h2 className="my-8 text-center text-2xl font-semibold text-neutral-400">Tools & Platforms</h2>
             <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
                 <motion.div 
@@ -131,16 +132,10 @@ const Technologies = () =>{
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiPostman className="text-7xl text-orange-400" /> {/* Postman */}
                 </motion.div>
-                <motion.div 
-                    variants={iconVariants(4.8)}
-                    initial="initial"
-                    animate="animate"
-                    className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <SiVisualstudiocode className="text-7xl text-blue-500" /> {/* VS Code */}
-                </motion.div>
+                
             </div>
 
-            {/* 4. Data Science & ML Libraries Section (Moved to bottom) */}
+            {/* 4. Data Science & ML Libraries Section */}
             <h2 className="my-8 text-center text-2xl font-semibold text-neutral-400">Data Science & ML Libraries</h2>
             <div className="flex flex-wrap items-center justify-center gap-4 mb-16">
                 <motion.div 
