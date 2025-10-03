@@ -39,12 +39,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Real-Estate Management system",
-    image: project1,
+    title: "HR Analytics Project: Job Change Prediction",
+    image: project4,
     description:
-      "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
-    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
-    url: "https://github.com/Afreed007/Realestate-BlockfernsReality.git" ,
+      "Developed a machine learning model to predict job changes among data scientists using HR analytics. Utilized data preprocessing techniques, including SMOTE to handle data imbalance. Compared multiple classification algorithms and demonstrated that the **KNN model achieved superior performance**.",
+    technologies: ["Python", "scikit-learn", "Pandas", "NumPy"],
   },
   {
     title: "Hoo Bank (Banking Website)",
@@ -55,21 +54,15 @@ export const PROJECTS = [
     url: "https://github.com/Afreed007/static-banking-site.git" ,
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Real-Estate Management system",
+    image: project1,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "JavaSript", "React", "tailwind","Framer-Motion"],
-    url: "https://github.com/Afreed007/react-portfolio.git" ,
-    
+      "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
+    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    url: "https://github.com/Afreed007/Realestate-BlockfernsReality.git" ,
   },
-  {
-    title: "HR Analytics Project: Job Change Prediction",
-    image: project4,
-    description:
-      "Developed a machine learning model to predict job changes among data scientists using HR analytics. Utilized data preprocessing techniques, including SMOTE to handle data imbalance. Compared multiple classification algorithms and demonstrated that the **KNN model achieved superior performance**.",
-    technologies: ["Python", "scikit-learn", "Pandas", "NumPy"],
-  },
+ 
+  
 ];
 
 export const CONTACT = {
