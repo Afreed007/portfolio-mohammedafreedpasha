@@ -41,6 +41,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
   
 // ];
 
+export const EDUCATION = [
+    {
+        year: "Dec 2024 - Present",
+        role: "Master of Computer Applications (MCA)",
+        company: "Ramaiah Institute Of Technology, Bangalore",
+        description: `Currently pursuing my Master's with a focus on advanced topics in Data Engineering, AI, Data Analytics, and Web Development.`,
+        cgpa: "CGPA: 8.60",
+        
+    },
+    {
+        year: "Oct 2021 - June 2024",
+        role: "Bachelor of Computer Applications (BCA)",
+        company: "Cambridge College, Bangalore",
+        description: `Completed my Bachelor's degree, building a strong foundation in Web Development, Database Management, and Software Engineering.`,
+        cgpa: "CGPA: 8.40",
+        
+    },
+];
+
 export const EXPERIENCES = [
   {
     year: "Jun 2024 - Sep 2024",
@@ -53,12 +72,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Real-Estate Management system",
-    image: project1,
-    description:
-      "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
-    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
-    url: "https://github.com/Afreed007/Realestate-BlockfernsReality.git" ,
+    title: "HR Analytics Project: Job Change Prediction",
+    image: project4,
+    description:"Developed a machine learning model to predict job changes among data scientists using HR analytics. Utilized data preprocessing techniques, including SMOTE to handle data imbalance. Compared multiple classification algorithms and demonstrated that the **KNN model achieved superior performance**.",
+    technologies: ["Python", "scikit-learn", "Pandas", "NumPy"],
   },
   {
     title: "static-banking-site",
@@ -69,20 +86,15 @@ export const PROJECTS = [
     url: "https://github.com/Afreed007/static-banking-site.git" ,
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Real-Estate Management system",
+    image: project1,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "JavaSript", "React", "tailwind","Framer-Motion"],
-    url: "https://github.com/Afreed007/react-portfolio.git" ,
-    
+      "A fully functional Real-Estate Management system website with features like property listing, property Booking and Inquiries, User Management like Builder, Agent and client, Admin Dashboard.",
+    technologies: ["PHP", "JavaScript", "Bootstrap", "MySQL"],
+    url: "https://github.com/Afreed007/Realestate-BlockfernsReality.git" ,
   },
-  {
-    title: "HR Analytics Project: Job Change Prediction",
-    image: project4,
-    description:"Developed a machine learning model to predict job changes among data scientists using HR analytics. Utilized data preprocessing techniques, including SMOTE to handle data imbalance. Compared multiple classification algorithms and demonstrated that the **KNN model achieved superior performance**.",
-    technologies: ["Python", "scikit-learn", "Pandas", "NumPy"],
-  },
+  
+  
 ];
 
 export const CONTACT = {
